@@ -7,4 +7,20 @@
 
 ### Let's carry on with this Lab. 
 
+### First, Lets enable all the services. We will not enable DHCP yet. Log into Cisco Unified Serviceability. Go to tools, and service activation, and activate everything except DHCP for now. Click save and OK. It takes a few minutes to start services and save. 
+
+![001](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/a97aac9a-3ea0-4fb9-b180-eb11fab35c58)
+![002](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/e4609226-e003-458f-9f9f-76a8dbd12ace)
+![003](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/cc409c1f-fb69-449b-8075-b9ed947f3825)
+![004](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/764ebefd-706f-4a9c-88a9-7b1477309ca3)
+
+### Now we will go back to navigation, CUCM Administration, and change some name settings to use the CUCM ip instead of the DNS name. It makes things easier and more direct. 
+### First we will go to System > Server, click find, and change the CUCM name to its IP address. in my case, 192.168.1.166. Make sure to click save after the change. 
+
+![005](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/429b8d50-63bb-4e06-9147-55dbcdd61325)
+![006](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/33e7ac4c-0f96-4ea2-b941-d15068ba75a7)
+![007](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/7a1a4723-d6cf-4c93-bfb0-86077c0a0500)
+![008](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/a6e14068-dd48-4bd5-9ac6-83a2caa9dfc9)
+![009](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/5ae80f39-678c-4b38-a0b8-4a8479bf2835)
+![010](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/0d977bce-bd41-43a0-be13-fcb835531bdc)
 
