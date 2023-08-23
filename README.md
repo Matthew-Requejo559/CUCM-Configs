@@ -1,5 +1,5 @@
 # CUCM-Configs
-### This is some configs for CUCM after initial install. When i first set up CUCM, i had no idea it was such a beast. I thought it was just: BOOM! install, plug in the phones, slap a config for _just_ the phone, and good to go... But i was wrong. There are actually a lot of settings and configurations that need to go on before you actually configure a phone. 
+### These are some configs for CUCM after initial install. When i first set up CUCM, i had no idea it was such a beast. I thought it was just: BOOM! install, plug in the phones, slap a config for _just_ the phone, and good to go... But i was wrong. There are actually a lot of settings and configurations that need to go on before you actually configure a phone. 
 
 ### A little preface: I originally started this lab and my [CUCM Install Lab](https://github.com/Matthew-Requejo559/CUCM-install/blob/main/README.md) because at my job, there is 1 guy who is the: Phone Commander, and they don't let other people touch the phone system. Everybody says, "Oh, it can't even be that compicated, i don't know why they don't let other people do it!" OR "Why do we gotta wait for that guy to do the phones! They should let anyone do it." NO one understood, or tried to understand, but i wanted to know. So, i acquired all the things necessary to set up my own CUCM lab at home, and see just how hard it was to install, set up, and configure a working phone system.
 
@@ -7,7 +7,7 @@
 
 ### Let's carry on with this Lab. 
 
-### First, Lets enable all the services. We will not enable DHCP yet. Log into Cisco Unified Serviceability. Go to tools, and service activation, and activate everything except DHCP for now. Click save and OK. It takes a few minutes to start services and save. 
+### First, Lets enable all the services. We will not enable DHCP yet. Log into Cisco Unified Serviceability. Go to tools > and service activation, and activate everything except DHCP for now. Click save and OK. It takes a few minutes to start services and save. 
 
 ![001](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/a97aac9a-3ea0-4fb9-b180-eb11fab35c58)
 ![002](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/e4609226-e003-458f-9f9f-76a8dbd12ace)
@@ -24,3 +24,4 @@
 ![009](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/5ae80f39-678c-4b38-a0b8-4a8479bf2835)
 ![010](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/0d977bce-bd41-43a0-be13-fcb835531bdc)
 
+### Next we will go to System > Enterprise parameters and change some settings there 
