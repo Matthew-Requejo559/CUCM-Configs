@@ -24,4 +24,15 @@
 ![009](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/5ae80f39-678c-4b38-a0b8-4a8479bf2835)
 ![010](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/0d977bce-bd41-43a0-be13-fcb835531bdc)
 
-### Next we will go to System > Enterprise parameters and change some settings there 
+### Next we will go to System > Enterprise parameters and change some settings there. I am going to be using Cisco 8841 phones whcih only support SIP, so i will change the Auto registration phone protocol from SCCP to SIP. We will have to click restart, and then save, but we will do that after we chaneg the rest of the DNS settings. 
+
+![011](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/24ae33d0-099a-440c-81d8-d6e25d926923)
+
+### After this, lets scroll down and replace the DNS name with our CUCM IP of 192.168.1.166 in the address fields of our URL parameter settings. After this we will click save, and then reset. 
+
+![012](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/7559f046-fde7-4813-9990-520962a8fcc6)
+![013](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/8a9d7f4c-d114-47bd-bf11-5de268e945f2)
+![014](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/129d43d6-9036-499e-a584-0cbaf84c756a)
+![015](https://github.com/Matthew-Requejo559/CUCM-Configs/assets/136190678/467b94e6-a316-4bd2-b7b6-5684654e322f)
+
+### Next up are service parameters 
